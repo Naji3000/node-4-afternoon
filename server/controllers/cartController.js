@@ -16,6 +16,7 @@ module.exports = {
         res.status(200).json(user)
     },
 
+    
     delete: (req,res) => {
         const {id} = req.params;
         const {user} = req.session
