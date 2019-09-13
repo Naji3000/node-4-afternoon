@@ -17,7 +17,6 @@ module.exports = {
         res.status(200).json(session.user);
     },
 
-    
     login: (req, res) => {
         const {session} = req
         const {username, password} = req.body;
