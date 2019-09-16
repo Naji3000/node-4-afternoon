@@ -20,6 +20,7 @@ class Checkout extends Component {
     const { history } = this.props;
     history.push('/shop');
   }
+  
 
   render() {
     const { removeFromCart, checkout, cart, total, history } = this.props;

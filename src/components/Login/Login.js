@@ -12,6 +12,7 @@ class Login extends Component {
       username: '',
       password: ''
     };
+    
 
     this.proceedAsGuest = this.proceedAsGuest.bind( this );
     this.login = this.login.bind( this );

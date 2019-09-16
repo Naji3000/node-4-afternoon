@@ -21,6 +21,7 @@ class Shop extends Component {
     const swagComponents = swag.map( swag => (
       <Swag key={ swag.id } title={ swag.title } price={ swag.price } id={ swag.id } />
     ));
+    
 
     return (
       <div id="Shop__parent">
